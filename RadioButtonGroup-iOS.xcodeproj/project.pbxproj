@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE6D75AB17C165AF00CE2936 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6D75AA17C165AF00CE2936 /* UIKit.framework */; };
+		DE6D75AD17C165AF00CE2936 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6D75AC17C165AF00CE2936 /* Foundation.framework */; };
+		DE6D75AF17C165AF00CE2936 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6D75AE17C165AF00CE2936 /* CoreGraphics.framework */; };
+		DE6D75B517C165AF00CE2936 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE6D75B317C165AF00CE2936 /* InfoPlist.strings */; };
+		DE6D75B717C165AF00CE2936 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6D75B617C165AF00CE2936 /* main.m */; };
+		DE6D75BB17C165AF00CE2936 /* VOKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6D75BA17C165AF00CE2936 /* VOKAppDelegate.m */; };
+		DE6D75BD17C165AF00CE2936 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6D75BC17C165AF00CE2936 /* Default.png */; };
+		DE6D75BF17C165AF00CE2936 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6D75BE17C165AF00CE2936 /* Default@2x.png */; };
+		DE6D75C117C165AF00CE2936 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6D75C017C165AF00CE2936 /* Default-568h@2x.png */; };
+		DE6D75C417C165AF00CE2936 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE6D75C217C165AF00CE2936 /* MainStoryboard.storyboard */; };
+		DE6D75C717C165AF00CE2936 /* VOKRadioButtonExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6D75C617C165AF00CE2936 /* VOKRadioButtonExampleViewController.m */; };
+		DE6D75CF17C167F600CE2936 /* VOKRadioButtonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6D75CE17C167F600CE2936 /* VOKRadioButtonGroup.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE6D75A717C165AF00CE2936 /* RadioButtonGroup-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RadioButtonGroup-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6D75AA17C165AF00CE2936 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE6D75AC17C165AF00CE2936 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE6D75AE17C165AF00CE2936 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE6D75B217C165AF00CE2936 /* RadioButtonGroup-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "RadioButtonGroup-iOS-Info.plist"; sourceTree = "<group>"; };
+		DE6D75B417C165AF00CE2936 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE6D75B617C165AF00CE2936 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE6D75B817C165AF00CE2936 /* RadioButtonGroup-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RadioButtonGroup-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		DE6D75B917C165AF00CE2936 /* VOKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VOKAppDelegate.h; sourceTree = "<group>"; };
+		DE6D75BA17C165AF00CE2936 /* VOKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VOKAppDelegate.m; sourceTree = "<group>"; };
+		DE6D75BC17C165AF00CE2936 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DE6D75BE17C165AF00CE2936 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DE6D75C017C165AF00CE2936 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DE6D75C317C165AF00CE2936 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DE6D75C517C165AF00CE2936 /* VOKRadioButtonExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VOKRadioButtonExampleViewController.h; sourceTree = "<group>"; };
+		DE6D75C617C165AF00CE2936 /* VOKRadioButtonExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VOKRadioButtonExampleViewController.m; sourceTree = "<group>"; };
+		DE6D75CD17C167F600CE2936 /* VOKRadioButtonGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOKRadioButtonGroup.h; sourceTree = "<group>"; };
+		DE6D75CE17C167F600CE2936 /* VOKRadioButtonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOKRadioButtonGroup.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE6D75A417C165AF00CE2936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6D75AB17C165AF00CE2936 /* UIKit.framework in Frameworks */,
+				DE6D75AD17C165AF00CE2936 /* Foundation.framework in Frameworks */,
+				DE6D75AF17C165AF00CE2936 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE6D759E17C165AF00CE2936 = {
+			isa = PBXGroup;
+			children = (
+				DE6D75B017C165AF00CE2936 /* RadioButtonGroup-iOS */,
+				DE6D75A917C165AF00CE2936 /* Frameworks */,
+				DE6D75A817C165AF00CE2936 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE6D75A817C165AF00CE2936 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE6D75A717C165AF00CE2936 /* RadioButtonGroup-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE6D75A917C165AF00CE2936 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE6D75AA17C165AF00CE2936 /* UIKit.framework */,
+				DE6D75AC17C165AF00CE2936 /* Foundation.framework */,
+				DE6D75AE17C165AF00CE2936 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE6D75B017C165AF00CE2936 /* RadioButtonGroup-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DE6D75B917C165AF00CE2936 /* VOKAppDelegate.h */,
+				DE6D75BA17C165AF00CE2936 /* VOKAppDelegate.m */,
+				DE6D75C217C165AF00CE2936 /* MainStoryboard.storyboard */,
+				DE6D75C517C165AF00CE2936 /* VOKRadioButtonExampleViewController.h */,
+				DE6D75C617C165AF00CE2936 /* VOKRadioButtonExampleViewController.m */,
+				DE6D75B117C165AF00CE2936 /* Supporting Files */,
+				DE6D75CD17C167F600CE2936 /* VOKRadioButtonGroup.h */,
+				DE6D75CE17C167F600CE2936 /* VOKRadioButtonGroup.m */,
+			);
+			path = "RadioButtonGroup-iOS";
+			sourceTree = "<group>";
+		};
+		DE6D75B117C165AF00CE2936 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE6D75B217C165AF00CE2936 /* RadioButtonGroup-iOS-Info.plist */,
+				DE6D75B317C165AF00CE2936 /* InfoPlist.strings */,
+				DE6D75B617C165AF00CE2936 /* main.m */,
+				DE6D75B817C165AF00CE2936 /* RadioButtonGroup-iOS-Prefix.pch */,
+				DE6D75BC17C165AF00CE2936 /* Default.png */,
+				DE6D75BE17C165AF00CE2936 /* Default@2x.png */,
+				DE6D75C017C165AF00CE2936 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE6D75A617C165AF00CE2936 /* RadioButtonGroup-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE6D75CA17C165AF00CE2936 /* Build configuration list for PBXNativeTarget "RadioButtonGroup-iOS" */;
+			buildPhases = (
+				DE6D75A317C165AF00CE2936 /* Sources */,
+				DE6D75A417C165AF00CE2936 /* Frameworks */,
+				DE6D75A517C165AF00CE2936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RadioButtonGroup-iOS";
+			productName = "RadioButttonGroup-iOS";
+			productReference = DE6D75A717C165AF00CE2936 /* RadioButtonGroup-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE6D759F17C165AF00CE2936 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VI;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Vokal Interactive";
+			};
+			buildConfigurationList = DE6D75A217C165AF00CE2936 /* Build configuration list for PBXProject "RadioButtonGroup-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE6D759E17C165AF00CE2936;
+			productRefGroup = DE6D75A817C165AF00CE2936 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE6D75A617C165AF00CE2936 /* RadioButtonGroup-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE6D75A517C165AF00CE2936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6D75B517C165AF00CE2936 /* InfoPlist.strings in Resources */,
+				DE6D75BD17C165AF00CE2936 /* Default.png in Resources */,
+				DE6D75BF17C165AF00CE2936 /* Default@2x.png in Resources */,
+				DE6D75C117C165AF00CE2936 /* Default-568h@2x.png in Resources */,
+				DE6D75C417C165AF00CE2936 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE6D75A317C165AF00CE2936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6D75B717C165AF00CE2936 /* main.m in Sources */,
+				DE6D75BB17C165AF00CE2936 /* VOKAppDelegate.m in Sources */,
+				DE6D75C717C165AF00CE2936 /* VOKRadioButtonExampleViewController.m in Sources */,
+				DE6D75CF17C167F600CE2936 /* VOKRadioButtonGroup.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE6D75B317C165AF00CE2936 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE6D75B417C165AF00CE2936 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE6D75C217C165AF00CE2936 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE6D75C317C165AF00CE2936 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE6D75C817C165AF00CE2936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE6D75C917C165AF00CE2936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE6D75CB17C165AF00CE2936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RadioButtonGroup-iOS/RadioButtonGroup-iOS-Prefix.pch";
+				INFOPLIST_FILE = "RadioButtonGroup-iOS/RadioButtonGroup-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE6D75CC17C165AF00CE2936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RadioButtonGroup-iOS/RadioButtonGroup-iOS-Prefix.pch";
+				INFOPLIST_FILE = "RadioButtonGroup-iOS/RadioButtonGroup-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE6D75A217C165AF00CE2936 /* Build configuration list for PBXProject "RadioButtonGroup-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6D75C817C165AF00CE2936 /* Debug */,
+				DE6D75C917C165AF00CE2936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE6D75CA17C165AF00CE2936 /* Build configuration list for PBXNativeTarget "RadioButtonGroup-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6D75CB17C165AF00CE2936 /* Debug */,
+				DE6D75CC17C165AF00CE2936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE6D759F17C165AF00CE2936 /* Project object */;
+}
