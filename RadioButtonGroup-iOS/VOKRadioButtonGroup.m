@@ -81,8 +81,8 @@
 
 - (void)clearSelection
 {
-    self.selectedButtonIndex = NSNotFound;
     self.selectedButton.selected = NO;
+    self.selectedButtonIndex = NSNotFound;
 }
 
 
