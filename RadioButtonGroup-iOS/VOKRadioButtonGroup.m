@@ -58,7 +58,7 @@
 - (void)changeSelectedButton:(UIButton *)button
 {
     UIButton *previousSelectedButton = self.selectedButton;
-    if (previousSelectedButton != button && previousSelectedButton.selected) {
+    if (previousSelectedButton != button) {
         previousSelectedButton.selected = NO;
         button.selected = YES;
         
