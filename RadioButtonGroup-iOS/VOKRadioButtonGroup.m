@@ -45,16 +45,20 @@
 - (UIButton *)selectedButton
 {
     if (self.selectedButtonIndex != NSNotFound) {
-        return self.buttons[self.selectedButtonIndex];
-    } else {
-        return nil;
+        UIButton *selectedButton = self.buttons[self.selectedButtonIndex];
+        if (selectedButton.selected) {
+            return selectedButton;
+        } else {
+            self.selectedButtonIndex = NSNotFound;
+        }
     }
+    return nil;
 }
 
 - (void)changeSelectedButton:(UIButton *)button
 {
     UIButton *previousSelectedButton = self.selectedButton;
-    if (previousSelectedButton != button) {
+    if (previousSelectedButton != button && previousSelectedButton.selected) {
         previousSelectedButton.selected = NO;
         button.selected = YES;
         
@@ -74,5 +78,12 @@
     self.target = target;
     self.action = action;
 }
+
+- (void)clearSelection
+{
+    self.selectedButtonIndex = NSNotFound;
+    self.selectedButton.selected = NO;
+}
+
 
 @end
