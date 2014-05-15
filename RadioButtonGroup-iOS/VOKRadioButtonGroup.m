@@ -45,10 +45,14 @@
 - (UIButton *)selectedButton
 {
     if (self.selectedButtonIndex != NSNotFound) {
-        return self.buttons[self.selectedButtonIndex];
-    } else {
-        return nil;
+        UIButton *selectedButton = self.buttons[self.selectedButtonIndex];
+        if (selectedButton.selected) {
+            return selectedButton;
+        } else {
+            self.selectedButtonIndex = NSNotFound;
+        }
     }
+    return nil;
 }
 
 - (void)changeSelectedButton:(UIButton *)button
@@ -74,5 +78,12 @@
     self.target = target;
     self.action = action;
 }
+
+- (void)clearSelection
+{
+    self.selectedButton.selected = NO;
+    self.selectedButtonIndex = NSNotFound;
+}
+
 
 @end

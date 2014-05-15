@@ -19,4 +19,6 @@
 
 - (void)setTarget:(id)target actionForSelectionChange:(SEL)action;
 
+- (void)clearSelection;
+
 @end
