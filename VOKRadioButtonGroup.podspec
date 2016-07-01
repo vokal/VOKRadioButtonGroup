@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = "VOKRadioButtonGroup"
   s.homepage         = "https://github.com/vokal/VOKRadioButtonGroup"
   s.license          = "© Copyright Vokal"
-  s.author           = { "Vokal" => "hello@vokal.io" }
+  s.author           = { "Vokal" => "ios@vokal.io" }
   s.source           = { :git => "https://github.com/vokal/VOKRadioButtonGroup.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
